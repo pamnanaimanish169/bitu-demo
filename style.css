@@ -10,3 +10,9 @@ body {
     transform: translateX(-50%);
     transform: translateY(-50%);
 }
+
+@media (min-width: 360px) and (max-width:640px) {
+    body {
+        transform: translate(-50%,-50%);
+    }
+}
